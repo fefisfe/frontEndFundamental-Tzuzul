@@ -1,0 +1,76 @@
+/*
+
+    # = id
+
+    . = clase
+
+    * = todo el archivo
+
+*/
+*{
+    font-size: 30;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold; /*Negrita*/
+}
+h1{
+    color: blue;
+    font-size: 150;
+}
+
+h2{
+    color: red;
+    font-size: 55;
+}
+.deporte{
+    color: blanchedalmond;
+    background-color: aqua;
+}
+
+#deportes{
+    color: brown;
+    margin: algin;
+}
+
+#resaltado{
+    color: brown;
+}
+.articulosDeportes{
+    background-color: aquamarine;
+}
+.articuloinversion{
+    background-color: blueviolet;
+}
+#plazos{
+    color: white;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+header ul li{
+    background-color:blueviolet
+}
+table{
+    background-color:tomato;
+    border-collapse: 4px;
+}
+th{
+    background-color:brown;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color:aqua;
+}
+#box{
+    padding-top:  50px 20px;
+    margin-top: 50px;
+    background-color: blueviolet;
+    border: solid 8px black;
+}
+.border{
+    border-top: solid 5px black;
+    width: 50px;
+}
